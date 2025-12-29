@@ -51,7 +51,7 @@ Assigning the switch its "identity" on the network.
 SW1(config)# interface vlan 1
 SW1(config-if)# ip address 192.168.1.11 255.255.255.0
 SW1(config-if)# no shutdown
-SW1(config)# ip default-gateway 192.168.1.1
+SW1(config)# ip default-gateway 192.168.1.10
 ```
 
 ### 3. Secure Remote Access (SSH v2)
