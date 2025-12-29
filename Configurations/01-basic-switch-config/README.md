@@ -99,7 +99,7 @@ Successful remote login confirms RSA key generation and VTY line configuration a
 | Command                 | Purpose              | Expected Output                  |
 | ----------------------- | -------------------- | -------------------------------- |
 | `show ip ssh`           | Verify Version       | SSH Enabled - version 2.0        |
-| `show ip int brief`     | Check Management IP  | Vlan1 ... 192.168.1.10 ... up/up |
+| `show ip int brief`     | Check Management IP  | Vlan1 ... 192.168.1.11 ... up/up |
 | `show run section line` | Verify Line Security | line con 0...logging synchronous |
 
 ---
