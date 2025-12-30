@@ -1,5 +1,7 @@
 # Lab 01: Foundational Switch Security & Management
 
+← [Back to Main Project](../../README.md)
+
 ## 📌 Project Overview
 
 **Target Certification:** Cisco CCNA 200-301  
@@ -130,3 +132,5 @@ Successful remote login confirms RSA key generation and VTY line configuration a
 - **Documentation:** Maintaining professional-grade configuration logs.
 
 ---
+
+**Next Lab:** [Lab 02: VLANs and Trunking](../02-vlans-and-trunking/README.md) →
