@@ -15,6 +15,10 @@ To transform a "factory-default" switch into a production-ready device by implem
 
 ## 🗺️ Network Topology
 
+![Lab 02 Topology](../../Diagrams/01-basic-switch-config.png)
+
+## 🗺️ Network Topology
+
 | Device | Role          | Management IP   | VLAN | Interface      |
 | :----- | :------------ | :-------------- | :--- | :------------- |
 | SW1    | Access Switch | 192.168.1.11/24 | 1    | F0/24 (To SW2) |
