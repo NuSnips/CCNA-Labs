@@ -95,8 +95,8 @@ SW2(config-if)# switchport trunk allowed vlan 10,99
 
 **Technical Reasoning:**
 
-- **nonegotiate:** Disables DTP. This prevents a malicious user from using a tool like Yersinia to spoof a switch and negotiate a trunk to capture traffic from all VLANs.
-- **native vlan 999:** By moving untagged traffic to a "Dead-End" VLAN that has no users and no IP, we mitigate VLAN Hopping (Double-Tagging) attacks.
+- **nonegotiate:** Disables DTP. This prevents a malicious user from using a tools to spoof a switch and negotiate a trunk to capture traffic from all VLANs.
+- **native vlan 999:** By moving untagged traffic to a "Dead End" VLAN that has no users and no IP, we mitigate VLAN Hopping (Double-Tagging) attacks.
 
 ---
 
